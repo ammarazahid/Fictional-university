@@ -1,3 +1,7 @@
+#header, #welcome-content{
+    color: white;
+    position: relative;
+}
 
 body {
     width: 100%;
@@ -5,6 +9,67 @@ body {
     padding: 0;
 }
 
-img > #library-img {
+#library-img {
     width: 100%;
+    height: 400px;
+
+    position: absolute;
+}
+
+.welcome-container{
+    text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+
+#top-right{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+   
+
+}
+
+#top-left{
+    margin: 0 0 0 30px;
+    font-size: larger;
+
+}
+
+li{
+    margin: 0 7px;
+}
+
+#header button{
+    margin: 0 7px;
+}
+
+#login-btn{
+    background-color: #f9903a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+#sign-up{
+    background-color: #ff3115;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
 }
