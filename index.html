@@ -1,48 +1,114 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>
         Fictional University
     </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale= 1.0, min-scale= 1.0">
 </head>
-<body>
-<header>
-    <diV>
-    <img id="library-img" src="images/library-hero.jpg" alt="library-img">
-    </diV>
-<div id="header">
-    <div id="top-left">
-    <div id="name">
-        <p><strong id="fictional">Fictional</strong> University</p>
-    </div>
-    </div>
-    <div id="top-right">
-        <nav>
-            <ul>
-                <li>About Us</li>
-                <li>Programs</li>
-                <li>Events</li>
-                <li>Campuses</li>
-                <li>Blog</li>
-            </ul>
-        </nav>
-        <button id="login-btn">Log In</button>
-        <button id="sign-up">Sign Up</button>
-</div>
-</div>
-</header>
 
-<div id="welcome-content">
-<div class="welcome-container">
-    <h1>Welcome!</h1>
-    <h2>We think you'll like it here.</h2>
-    <h3>Why don't you check out the major you're interested in?</h3>
-    <button>Find Your Major</button>
+<body>
+    <header>
+        <diV>
+            <img id="library-img" src="images/library-hero.jpg" alt="library-img">
+        </diV>
+        <div id="header">
+            <div id="top-left">
+                <div id="name">
+                    <p><strong id="fictional">Fictional</strong> University</p>
+                </div>
+            </div>
+            <div id="top-right">
+                <nav>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Programs</li>
+                        <li>Events</li>
+                        <li>Campuses</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+                <button id="login-btn">Log In</button>
+                <button id="sign-up">Sign Up</button>
+                <i id="search-icon" class="fas fa-search"></i>
+            </div>
+        </div>
+    </header>
+
+    <div id="welcome-content">
+        <div class="welcome-container">
+            <h1>Welcome!</h1>
+            <h2>We think you'll like it here.</h2>
+            <h3>Why don't you check out the major you're interested in?</h3>
+            <button id="major-btn">Find Your Major</button>
+        </div>
+    </div>
+    <div id="second">
+        <div id="Events">
+            <h4>Upcoming Events</h4>
+            <div class="evnt">
+                <div class="evnt-date">
+                    <p>MAR</p>
+                    <h3>25</h3>
+                </div>
+                <div id="poetry">
+                    <h5>Poetry in the 100</h5>
+                    <p id="para">Bring poems you've wrote to the 100 building this Tuesday for an open mic and snacks.<a href=""
+                            class="a-grey">Learn more</a></p>
+                </div>
+            </div>
+            <div class="evnt">
+                <div id="apr-date" class="evnt-date">
+                    <p>APR</p>
+                    <h3>02</h3>
+                </div>
+                <div id="party">
+                    <h5>Quad Picnic Party</h5>
+                    <p id="para">Live music,a taco truck and more can found in our third annual quad picnic day.<a href=""
+                            class="a-grey">Learn more</a></p>
+                </div>
+            </div>
+            <div id="second-evnt-btn">
+            <button id="evnt-btn">View All Events</button>
+            </div>
+        </div>
+        <div id="blogs">
+            <h4>From Our Blogs</h4>
+            <div class="blog">
+                <div class="blog-date">
+                    <p>AUG</p>
+                    <h3>03</h3>
+                </div>
+                <div id="blog-award">
+                    <h5>We Won an Award</h5>
+                    <p id="para">of classical latin literature from 45 BC,making it over 2000 years old.Richard McCllntock,a Latin
+                        professor...<a href="" class="blog-a-grey">Read more</a></p>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-date">
+                    <p>AUG</p>
+                    <h3>01</h3>
+                </div>
+                <div id="blog-test">
+                    <h5>Second Test Post</h5>
+                    <p id="para">Where does it come from?Contary to popular belief,Lorem ipsum is not a simply text.It has...<a
+                            href="" class="blog-a-grey">Read more</a></p>
+                </div>
+                </div>
+                <div id="second-blog-btn">
+                <button id="blog-btn">View All Blog Posts</button>
 </div>
-</div>
-<div id="opacity"></div>
+            </div>
+    </div>
+    <div id="third-sec">
+
+    </div>
 
     <script src="script.js"></script>
 </body>

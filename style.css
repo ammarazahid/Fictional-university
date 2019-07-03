@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 #header, #welcome-content{
     color: white;
     position: relative;
@@ -18,6 +22,9 @@ body {
 
 .welcome-container{
     text-align: center;
+    margin-top: 88px;
+    line-height: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -72,4 +79,168 @@ li{
     border: none;
     border-radius: 5px;
     padding: 7px 10px;
+
+}
+
+#search-icon{
+     margin: 0 10px 0 10px;
+}
+
+
+h1{
+    font-size: 82px;
+    margin-bottom: 43;
+    font-weight: 300;
+
+}
+
+h2{
+    font-size: xx-large;
+    font-weight: 400;
+}
+h3{
+   font-size: larger;
+   font-weight: 500;
+}
+#major-btn{
+    margin: 10px;
+    padding: 16px 47px;
+    font-size: xx-large;
+    background-color: #043867;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+
+#second{
+   display: flex;    
+}
+
+#second h4{
+    text-align: center;
+    font-size: x-large;
+    color: #333333;
+}
+
+#blogs{
+    background-color: #faf2c8;
+    width: 50%;
+
+}
+
+#Events{
+    background-color: #ffffff;
+    width: 50%;
+}
+
+#second > div{
+    padding: 0px 10px 10px 10px;
+}
+
+
+.blog, .evnt{
+    display: flex;
+    align-items: center;
+}
+
+
+.evnt-date > h3 {
+    margin: 0px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.evnt-date > p{
+    margin: 0px;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.blog-date > p{
+    margin: 0px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.blog-date > h3 {
+    margin: 0px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.evnt-date{
+    border: none;
+    background-color: #043867;
+    border-radius: 50%;
+    padding: 5px 14px;
+    color: #ffffffff;
+    margin: 0 12px 0 0;
+}
+
+div#apr-date {
+    padding: 5px 16px;
+}
+
+#second h5{
+    margin: 0px;
+    text-decoration: underline;
+    color: #0b63a9;
+    font-size: medium;
+    font-weight: inherit;
+}
+
+
+#para{
+    margin: 0px;
+    font-size: small;
+    color: #333333;
+    font-weight: 700;
+}
+
+.evnt, .blog{
+    margin: 31px 0;
+}
+
+a.a-grey, .blog-a-grey {
+    color: #999;
+    font-size: smaller;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#second-evnt-btn, #second-blog-btn{
+    text-align: center;
+}
+
+
+#evnt-btn{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 13px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #043867;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#blog-btn{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 13px;
+    margin: 10px;
+    color: #ffffff;
+    background-color:#f6d652;
+    border: none;
+    border-radius: 5px;
+}
+
+.blog-date{
+    border: none;
+    background-color: #f6d652;
+    border-radius: 50%;
+    padding: 5px 14px;
+    color: #ffffffff;
+    margin: 0 12px 0 0;
 }
