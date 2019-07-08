@@ -1,10 +1,10 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
-#header, #welcome-content{
+#header,
+#welcome-content {
     color: white;
-    position: relative;
 }
 
 body {
@@ -16,25 +16,34 @@ body {
 #library-img {
     width: 100%;
     height: 400px;
-
-    position: absolute;
+    opacity: 0.9;
+    /* position: absolute; */
 }
 
-.welcome-container{
+.welcome-container {
     text-align: center;
-    margin-top: 88px;
+    margin-top: 10px;
     line-height: 10px;
     margin-bottom: 30px;
 }
 
+.first {
+    position: relative;
+    background: hsla(0, 0%, 0%, 0.3);
+    height: 400px;
+}
 
-ul{
+#b-img {
+    position: absolute;
+}
+
+ul {
     list-style-type: none;
     display: flex;
 }
 
 
-#header{
+#header {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -43,29 +52,29 @@ ul{
 }
 
 
-#top-right{
+#top-right {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-   
+
 
 }
 
-#top-left{
+#top-left {
     margin: 0 0 0 30px;
     font-size: larger;
 
 }
 
-li{
+li {
     margin: 0 7px;
 }
 
-#header button{
+#header button {
     margin: 0 7px;
 }
 
-#login-btn{
+#login-btn {
     background-color: #f9903a;
     color: white;
     border: none;
@@ -73,7 +82,11 @@ li{
     padding: 7px 10px;
 }
 
-#sign-up{
+#hamburger {
+    display: none;
+}
+
+#sign-up {
     background-color: #ff3115;
     color: white;
     border: none;
@@ -82,27 +95,29 @@ li{
 
 }
 
-#search-icon{
-     margin: 0 10px 0 10px;
+#search-icon {
+    margin: 0 10px 0 10px;
 }
 
 
-h1{
+h1 {
     font-size: 82px;
     margin-bottom: 43;
     font-weight: 300;
 
 }
 
-h2{
+h2 {
     font-size: xx-large;
     font-weight: 400;
 }
-h3{
-   font-size: larger;
-   font-weight: 500;
+
+h3 {
+    font-size: larger;
+    font-weight: 500;
 }
-#major-btn{
+
+#major-btn {
     margin: 10px;
     padding: 16px 47px;
     font-size: xx-large;
@@ -112,63 +127,64 @@ h3{
     border-radius: 8px;
 }
 
-#second{
-   display: flex;    
+#second {
+    display: flex;
 }
 
-#second h4{
+#second h4 {
     text-align: center;
     font-size: x-large;
     color: #333333;
 }
 
-#blogs{
+#blogs {
     background-color: #faf2c8;
-    width: 50%;
+    width: 100%;
 
 }
 
-#Events{
+#Events {
     background-color: #ffffff;
-    width: 50%;
+    width: 100%;
 }
 
-#second > div{
+#second>div {
     padding: 0px 10px 10px 10px;
 }
 
 
-.blog, .evnt{
+.blog,
+.evnt {
     display: flex;
     align-items: center;
 }
 
 
-.evnt-date > h3 {
+.evnt-date>h3 {
     margin: 0px;
     text-align: center;
     font-size: xx-large;
 }
 
-.evnt-date > p{
+.evnt-date>p {
     margin: 0px;
     font-size: larger;
     font-weight: 400;
 }
 
-.blog-date > p{
+.blog-date>p {
     margin: 0px;
     font-size: larger;
     font-weight: 500;
 }
 
-.blog-date > h3 {
+.blog-date>h3 {
     margin: 0px;
     text-align: center;
     font-size: xx-large;
 }
 
-.evnt-date{
+.evnt-date {
     border: none;
     background-color: #043867;
     border-radius: 50%;
@@ -181,7 +197,7 @@ div#apr-date {
     padding: 5px 16px;
 }
 
-#second h5{
+#second h5 {
     margin: 0px;
     text-decoration: underline;
     color: #0b63a9;
@@ -190,30 +206,33 @@ div#apr-date {
 }
 
 
-#para{
+#para {
     margin: 0px;
     font-size: small;
     color: #333333;
     font-weight: 700;
 }
 
-.evnt, .blog{
+.evnt,
+.blog {
     margin: 31px 0;
 }
 
-a.a-grey, .blog-a-grey {
+a.a-grey,
+.blog-a-grey {
     color: #999;
     font-size: smaller;
     font-weight: normal;
     text-decoration: none;
 }
 
-#second-evnt-btn, #second-blog-btn{
+#second-evnt-btn,
+#second-blog-btn {
     text-align: center;
 }
 
 
-#evnt-btn{
+#evnt-btn {
     font-size: large;
     font-weight: bold;
     padding: 10px 13px;
@@ -225,22 +244,81 @@ a.a-grey, .blog-a-grey {
 }
 
 
-#blog-btn{
+#blog-btn {
     font-size: large;
     font-weight: bold;
     padding: 10px 13px;
     margin: 10px;
     color: #ffffff;
-    background-color:#f6d652;
+    background-color: #f6d652;
     border: none;
     border-radius: 5px;
 }
 
-.blog-date{
+.blog-date {
     border: none;
     background-color: #f6d652;
     border-radius: 50%;
     padding: 5px 14px;
     color: #ffffffff;
     margin: 0 12px 0 0;
+}
+
+
+@media (min-width: 300px) and (max-width: 420px) {
+    #hamburger {
+        display: block;
+        margin: 0 10px 0 10px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #login-btn,
+    #sign-up {
+        display: none;
+    }
+
+    .first {
+        height: 300px;
+        margin: 0px;
+    }
+
+    #second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        margin: 10px;
+        font-size: -webkit-xxx-large;
+    }
+
+    h2 {
+        font-size: x-large;
+        margin: 0;
+    }
+
+    h3 {
+        margin: 2px;
+        font-size: large;
+
+    }
+
+    #major-btn {
+        font-size: inherit;
+        font-weight: 900;
+        padding: 15px 25px;
+    }
+
+    .welcome-container {
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+    }
+
+    #library-img{
+        height: 300px;
+    }
 }
