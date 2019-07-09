@@ -1,4 +1,5 @@
 * {
+    outline: none;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -118,7 +119,7 @@ h3 {
 }
 
 #major-btn {
-    margin: 10px;
+    margin: 13px 86px;
     padding: 16px 47px;
     font-size: xx-large;
     background-color: #043867;
@@ -147,10 +148,10 @@ h3 {
     background-color: #ffffff;
     width: 100%;
 }
-
+/* 
 #second>div {
     padding: 0px 10px 10px 10px;
-}
+} */
 
 
 .blog,
@@ -215,7 +216,7 @@ div#apr-date {
 
 .evnt,
 .blog {
-    margin: 31px 0;
+    margin: 31px;
 }
 
 a.a-grey,
