@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1, min-scale=1">
+    <!-- <link rel="stylesheet" href="style-navbar.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0, min-scale=1.0">
 </head>
 
 <body>
@@ -25,6 +26,22 @@
                     </div>
                 </div>
                 <div id="top-right">
+                        <input type="checkbox" id="check" />
+
+                    <div class="side-menu">
+                        <nav id="role-nav-bar">
+                            <ul id="menu">
+                       <li><a href="#" class="close-btn">&times;</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Campuses</a></li>
+                        <li><a href="#">Blog</a></li>
+                        </ul>
+                        <button id="login-btn">Log In</button>
+                    <button id="sign-up">Sign Up</button>
+                    </nav>
+                    </div>
                     <nav>
                         <ul>
                             <li>About Us</li>
@@ -36,7 +53,7 @@
                     </nav>
                     <button id="login-btn">Log In</button>
                     <button id="sign-up">Sign Up</button>
-                    <i id="hamburger" class="fas fa-bars"></i>
+                    <a id="nav-a" href="#side-menu"><i id="hamburger" class="fas fa-bars"></i></a>
                     <i id="search-icon" class="fas fa-search"></i>
                 </div>
             </div>
